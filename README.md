@@ -62,7 +62,7 @@ sudo nano /etc/sudoers.d/grader
 ```
 3. Add the following to /etc/sudoers.d/grader:
 ```
-grader ALL=(ALL:ALL) ALL
+grader ALL=(ALL) NOPASSWD:ALL
 ```
 4. Create a new SSH key pair for the grader ssh-keygen user with and add public key to grader user session under .ssh/authorized_keys. Plus, update permission to 
 ```
