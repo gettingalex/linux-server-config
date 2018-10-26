@@ -361,19 +361,19 @@ sudo tail -20 /var/log/apache2/error.log
 ```
 
 ### Software Installed/Tech used:
-[Amazon Lightsail](https://aws.amazon.com/lightsail/)
-[Apache](https://httpd.apache.org)
-[mod_wsgi](https://modwsgi.readthedocs.io/en/develop/user-guides/quick-installation-guide.html)
-[Ubuntu](https://www.ubuntu.com)
-[virtalenv](https://virtualenv.pypa.io/en/latest/)
-[pip](https://pip.pypa.io/en/stable/)
-[Python 2.7](https://www.python.org/download/releases/2.7/)
-[Flask](http://flask.pocoo.org)
-[PostgresSQL](https://www.postgresql.org)
-[psycopg2](http://initd.org/psycopg/)
-[SQLAlchemy](https://www.sqlalchemy.org)
-[httplib2](https://httplib2.readthedocs.io/en/latest/)
-[requests](http://docs.python-requests.org/en/master/)
+*[Amazon Lightsail](https://aws.amazon.com/lightsail/)
+*[Apache](https://httpd.apache.org)
+*[mod_wsgi](https://modwsgi.readthedocs.io/en/develop/user-guides/quick-installation-guide.html)
+*[Ubuntu](https://www.ubuntu.com)
+*[virtalenv](https://virtualenv.pypa.io/en/latest/)
+*[pip](https://pip.pypa.io/en/stable/)
+*[Python 2.7](https://www.python.org/download/releases/2.7/)
+*[Flask](http://flask.pocoo.org)
+*[PostgresSQL](https://www.postgresql.org)
+*[psycopg2](http://initd.org/psycopg/)
+*[SQLAlchemy](https://www.sqlalchemy.org)
+*[httplib2](https://httplib2.readthedocs.io/en/latest/)
+*[requests](http://docs.python-requests.org/en/master/)
 
 
 ### References:
