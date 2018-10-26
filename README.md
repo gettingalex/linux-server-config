@@ -133,7 +133,7 @@ sudo apt-get install postgresql
 ```
 2. Block remote connections
 ```
-sudo nano /etc/postgresql/9.3/main/pg_hba.conf
+sudo nano /etc/postgresql/9.5/main/pg_hba.conf
 ```
 3. Login as postgres
 ```
