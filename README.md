@@ -168,11 +168,12 @@ exit
 sudo apt-get install python-pip
 ```
 11. Install psycopg2:
+
 ``` sudo apt-get -qqy install postgresql python-psycopg2
 ```
-12. Install the other requirements with pip: requests, sqlalchemy, ....
+12. Install the other requirements with pip:
 ```
-sudo pip install 
+sudo pip install requests, sqlalchemy, httplib2
 ```
 
 
@@ -192,11 +193,31 @@ cd FlaskApp
 
 
 ### Add the virtual host
-1. Create the FlaskApp.conf file: 
+1. Install the virtualenv and create one named ven
+```
+sudo pip install virtualenv 
+```
+```
+sudo virtualenv venv
+```
+2. Activate the virtual envionemtn and install Flask in the environment
+```
+source venv/bin/activate
+```
+```
+sudo pip install Flask 
+```
+You can test your app with sudo python __init__.py. Test the main one or just a simple one if you want verify your configuration before you clone your main project
+
+To deactivate the environment, give the following command:
+```
+deactivate
+```
+2. Create the FlaskApp.conf file: 
 ```
 sudo nano /etc/apache2/sites-available/FlaskApp.conf
 ```
-2. add the following inside the configuration document
+3. add the following inside the configuration document
 ```
 <VirtualHost *:80>
 	ServerName 52.13.215.215
@@ -216,7 +237,7 @@ sudo nano /etc/apache2/sites-available/FlaskApp.conf
 	CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
 ```
-3. Start the virtual host: 
+4. Start the virtual host: 
 ```
 sudo a2ensite FlaskApp
 ```
