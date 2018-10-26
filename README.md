@@ -207,7 +207,7 @@ source venv/bin/activate
 ```
 sudo pip install Flask 
 ```
-You can test your app with sudo python \__init__.py. Test the main one or just a simple one if you want verify your configuration before you clone your main project
+You can test your app with sudo python \_\_init_\_.py. Test the main one or just a simple one if you want verify your configuration before you clone your main project
 
 To deactivate the environment, give the following command:
 ```
@@ -288,7 +288,7 @@ cd FlaskApp
 ```
 sudo mv application.py __init__.py
 ```
-4. Edit __init__.py (formally application.py), database_setup.py and change the create_engine address
+4. Edit \_\_init_\_.py (formally application.py), database_setup.py and change the create_engine address
 ```
 postgresql://catalog:password@localhost/catalog
 ```
@@ -376,7 +376,7 @@ sudo tail -20 /var/log/apache2/error.log
 [requests](http://docs.python-requests.org/en/master/)
 
 
-References:
+### References:
 https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
 
 https://askubuntu.com/questions/27559/how-do-i-disable-remote-ssh-login-as-root-from-a-server
