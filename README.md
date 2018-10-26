@@ -266,7 +266,7 @@ application.secret_key = 'super_secret_key'
 ```
 sudo apt-get install git
 ```
-2. cd into the FlaskApp main folder
+2. Navigate to the FlaskApp main folder
 ```
 cd /var/www/Flask/Flask
 ```
@@ -284,7 +284,7 @@ sudo mv ./catalog-linux ./FlaskApp
 ```
 cd FlaskApp
 ```
-3. Rename application.py to __init__.py: 
+3. Rename application.py to \_\_init_\_.py: 
 ```
 sudo mv application.py __init__.py
 ```
@@ -324,7 +324,7 @@ INSERT INTO category (id, name) VALUES (3, 'Tripods');
 INSERT INTO category (id, name) VALUES (4, 'Drones');
 INSERT INTO category (id, name) VALUES (5, 'Bags');
 ```
-2. restart Apache
+2. Restart Apache
 ```
 sudo service apache2 restart
 ```
