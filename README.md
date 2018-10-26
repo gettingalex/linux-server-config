@@ -360,12 +360,12 @@ See error log with command:
 sudo tail -20 /var/log/apache2/error.log
 ```
 
-Software Installed/Tech used:
+### Software Installed/Tech used:
 [Amazon Lightsail](https://aws.amazon.com/lightsail/)
 [Apache](https://httpd.apache.org)
 [mod_wsgi](https://modwsgi.readthedocs.io/en/develop/user-guides/quick-installation-guide.html)
 [Ubuntu](https://www.ubuntu.com)
-ven
+[virtalenv](https://virtualenv.pypa.io/en/latest/)
 [pip](https://pip.pypa.io/en/stable/)
 [Python 2.7](https://www.python.org/download/releases/2.7/)
 [Flask](http://flask.pocoo.org)
