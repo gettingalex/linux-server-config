@@ -200,14 +200,14 @@ sudo pip install virtualenv
 ```
 sudo virtualenv venv
 ```
-2. Activate the virtual envionemtn and install Flask in the environment
+2. Activate the virtual environment and install Flask in the environment
 ```
 source venv/bin/activate
 ```
 ```
 sudo pip install Flask 
 ```
-You can test your app with sudo python __init__.py. Test the main one or just a simple one if you want verify your configuration before you clone your main project
+You can test your app with sudo python \__init__.py. Test the main one or just a simple one if you want verify your configuration before you clone your main project
 
 To deactivate the environment, give the following command:
 ```
