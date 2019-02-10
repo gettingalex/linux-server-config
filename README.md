@@ -6,9 +6,9 @@ As part of the Full Stack Web Developer Nanodegree with Udacity
 
 The goal of this project is to configure and deploy the catalog flask app created in the previous project with a ubuntu server instance. Here Amazon Lightsail is used.
 
-The website URL is [52.13.215.215.xip.io](52.13.215.215.xip.io), the IP address is 52.13.215.215 and it is on port 2200.
+The website URL was [52.13.215.215.xip.io](52.13.215.215.xip.io), the IP address is 52.13.215.215 and it is on port 2200. The website is no longer hosted with Amazon Lightsail.
 
-The grader user key is included in the submission comment.
+The grader user key was included in the Udacity FullStack Nanodegree project submission comment.
 
 
 ## Configuring and Running the Project
